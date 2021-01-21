@@ -4,7 +4,10 @@ module.exports = {
     'selector-type-no-unknown': null,
 
     // Disallow unknown units
-    'unit-no-unknown': null
+    'unit-no-unknown': null,
+
+    // Specify lowercase or uppercase for units
+    'unit-case': null
   },
   extends: [
     'stylelint-config-standard',
